@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: hsl(228, 33%, 97%);
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .card-body, .box, textarea {
+    
+    border-radius: 9px;
+     
+ }
+.dp img {
+    width: 32px;
+}
+
+.name {
+    color: hsl(212, 24%, 26%);
+    font-weight: 500;
+}
+
+.time {
+    color: hsl(211, 10%, 45%);
+    font-weight: 400;
+}
+.user-comment {
+    color: hsl(211, 10%, 45%);
+    font-weight: 400;
+}
+.left {
+   /* background-color: hsl(239, 57%, 85%); */
+   background-color: hsl(223, 19%, 93%);
+   border-radius: 8px;
+   font-weight: 700;
+}
+
+.num, .right span {
+color: hsl(238, 40%, 52%);
+font-weight: 500;
+font-size: 0.95rem;
+}
+
+.text-field {
+    caret-color: hsl(238, 40%, 52%);
+}
+
+.plus, .minus {
+    color: hsl(239, 57%, 85%);
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.replies {
+    border-left: 3.1px solid hsl(223, 19%, 93%);
+}
+
+.user-comment span {
+    color: hsl(238, 40%, 52%);
+    font-weight: 500;
+}
+
+textarea {
+    border: 2px solid hsl(223, 19%, 93%) !important;
+    color: hsl(212, 24%, 26%);
+}
+
+textarea::placeholder {
+    color: hsl(211, 10%, 45%);
+    font-weight: 400;
+}
+ 
+.right, .edit, .delete {
+    cursor: pointer;
+}
+
+.reply:hover, .edit:hover, .delete:hover {
+    opacity: 60%;
+}
+.delete span{
+    color:  hsl(358, 79%, 66%);
+    font-weight: 500;
+}
+
+.delete span:hover {
+    opacity: 60%;
+}
+.send-btn, .reply-btn, .update-btn {
+    background-color: hsl(238, 40%, 52%);
+    color: white;
+    cursor: pointer;
+    border-radius: 7px;
+    letter-spacing: 0.03rem;
+    height: 2.89rem;
+    padding: 11px 23px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    /* margin-left: 13.3rem; */
+}
+.send-btn:hover, .update-btn:hover, .reply-btn:hover, .cancel:hover, .del:hover {
+    opacity: 60%;
+}
+span {
+    pointer-events: none;   
+}
+
+.text-field:hover, .text-field:focus, .text-field:active{
+    cursor: pointer;
+    
+}
+
+.you {
+    background-color: hsl(238, 40%, 52%);
+    color: white;
+    font-size: 0.79rem;
+    font-weight: 400;
+    padding: 0px 8.2px;
+    border-radius: 2px;
+}
+
+.delete-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-content {
+    margin: 10% auto;
+    max-width: 21.7rem;
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+    border-radius: 10px;
+  }
+
+  .cancel {
+      background-color: hsl(211, 10%, 45%);
+      cursor: pointer;
+  }
+
+  .del {
+      background-color: hsl(358, 79%, 66%);
+      cursor: pointer;
+  }
+   
+  .modal-ques p {
+      font-size: 0.96rem;
+      color: hsl(211, 10%, 45%);
+      font-weight: 400;
+  }
+
+  .delete-modal h2 {
+      color: hsl(212, 24%, 26%);
+      font-weight: 500;
+  }
+
+  .cancel, .del {
+      border-radius: 5px;
+      font-size: 1rem;
+      padding: 11px 22px;
+      font-weight: 400;
+  }

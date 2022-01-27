@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/interactive-comments-section-main/styles.css">
+  <title>Frontend Mentor | Interactive comments section</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+    </style>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="div">
+    <section id="my-modal" class="delete-modal justify-content-center align-items-center">
+      <div class="modal-content  p-4 ">
+        <article class="modal-head">
+          <h5>Delete comment</h5>
+        </article>
+        <article class="modal-ques">
+          <p class="py-2">Are you sure you want to delete this comment? This will remove the comment and can't be undone.</p>
+        </article>
+        <article class="modal-foot d-flex justify-content-between">
+          <div class="cancel text-white">NO, CANCEL</div>
+          <div class="del  text-white">YES, DELETE</div>
+        </article>
+      </div>
+    </section>
+    <main class="container py-4 px-3  px-lg-5 ">
+        <section class="comment-section">
+          <div class="comment main-parent">
+            <article class="mb-3 shadow-sm box  amy">
+              <div class="card-body bg-white d-flex">
+                <!-- side-bar -->
+                <div class="side-bar me-4 ms-2 d-none d-md-block">
+                  <div class="left d-flex flex-column justify-content-center align-items-center px-2 py-1">
+                    <div class="plus ">+</div>
+                    <div class="num amy-num px-1">12</div>
+                    <div class="minus">-</div>
+                  </div>
+                </div>
+                <!-- main-content -->
+                <div class="main-content  justify-content-between">
+                  <div class="header d-flex align-items-center justify-content-between">
+                    <!-- user-info -->
+                    <div class="user-info d-flex align-items-center">
+                      <div class="dp  pe-0 me-3">
+                        <img class="img-fluid" src="/interactive-comments-section-main/images/avatars/image-amyrobson.png" alt="">
+                      </div>
+                      <div class="name me-3">amyrobson</div>
+                      <div class="time ">1 month ago</div>
+                    </div>
+                    <div class="activity amy d-none d-md-block">
+                      <div class="right reply">
+                        <img class="pe-2" src="/interactive-comments-section-main/images/icon-reply.svg" alt="">
+                        <span>Reply</span>
+                     </div>
+                    </div>
+                  </div>
+                  
+                 <!-- user-comment -->
+                 <div class="user-comment py-3">
+                   Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.
+                 </div>
+                 <!-- comment-updates -->
+                <div class="updates amy d-flex d-md-none justify-content-between align-items-center">
+                  <div class="left d-flex align-items-center px-2 py-1">
+                    <div class="plus me-3">+</div>
+                    <div class="num amy-num me-3">12</div>
+                    <div class="minus">-</div>
+                  </div>
+                  <div class="right reply">
+                     <img class="pe-2" src="/interactive-comments-section-main/images/icon-reply.svg" alt="">
+                     <span>Reply</span>
+                  </div>
+                </div>
+                </div>
+                 
+                
+              </div>
+            </article>
+          </div>
+          <div class="comment-reply ">
+            <article class="mb-3 shadow-sm box main-parent max">
+              <div class="card-body bg-white d-flex">
+                <!-- side-bar -->
+                <div class="side-bar me-4 ms-2 d-none d-md-block">
+                  <div class="left d-flex flex-column justify-content-center align-items-center px-2 py-1">
+                    <div class="plus ">+</div>
+                    <div class="num max-num px-2">5</div>
+                    <div class="minus">-</div>
+                  </div>
+                </div>
+                <!-- main-content -->
+                <div class="main-content  justify-content-between">
+                  <div class="header d-flex align-items-center justify-content-between">
+                    <!-- user-info -->
+                    <div class="user-info d-flex align-items-center">
+                      <div class="dp  pe-0 me-3">
+                        <img class="img-fluid" src="/interactive-comments-section-main/images/avatars/image-maxblagun.png" alt="">
+                      </div>
+                      <div class="name me-3">maxblagun</div>
+                      <div class="time ">2 weeks ago</div>
+                    </div>
+                    <div class="activity max d-none d-md-block">
+                      <div class="right reply ">
+                        <img class="pe-2" src="/interactive-comments-section-main/images/icon-reply.svg" alt="">
+                        <span>Reply</span>
+                     </div>
+                    </div>
+                  </div>
+                  
+                 <!-- user-comment -->
+                 <div class="user-comment py-3">
+                  Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!
+                 </div>
+                 <!-- comment-updates -->
+                <div class="updates max d-flex d-md-none justify-content-between align-items-center">
+                  <div class="left d-flex align-items-center px-2 py-1">
+                    <div class="plus me-3">+</div>
+                    <div class="num max-num me-3">5</div>
+                    <div class="minus">-</div>
+                  </div>
+                  <div class="right reply">
+                     <img class="pe-2" src="/interactive-comments-section-main/images/icon-reply.svg" alt="">
+                     <span>Reply</span>
+                  </div>
+                </div>
+                </div>
+                 
+                
+              </div>
+            </article>
+            <!-- replies -->
+            <div class="replies ms-md-5 ps-md-4 ">
+              <!-- inner_reply_body -->
+              <div class="inner-reply-body ms-3">
+                <!-- reply 1 -->
+              <article class="mb-3 shadow-sm box main-parent ram">
+                <div class="card-body bg-white d-flex">
+                  <!-- side-bar -->
+                  <div class="side-bar me-4 ms-2 d-none d-md-block">
+                    <div class="left d-flex flex-column justify-content-center align-items-center px-2 py-1">
+                      <div class="plus ">+</div>
+                      <div class="num ram-num px-2">4</div>
+                      <div class="minus">-</div>
+                    </div>
+                  </div>
+                  <!-- main-content -->
+                  <div class="main-content  justify-content-between">
+                    <div class="header d-flex align-items-center justify-content-between">
+                      <!-- user-info -->
+                      <div class="user-info d-flex align-items-center">
+                        <div class="dp  pe-0 me-3">
+                          <img class="img-fluid" src="/interactive-comments-section-main/images/avatars/image-ramsesmiron.png" alt="">
+                        </div>
+                        <div class="name me-3">ramsesmiron</div>
+                        <div class="time ">1 week ago</div>
+                      </div>
+                      <div class="activity ram d-none d-md-block">
+                        <div class="right reply">
+                          <img class="pe-2" src="/interactive-comments-section-main/images/icon-reply.svg" alt="">
+                          <span>Reply</span>
+                       </div>
+                      </div>
+                    </div>
+                    
+                   <!-- user-comment -->
+                   <div class="user-comment py-3">
+                    <span>@maxblagun</span> If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.
+                   </div>
+                   <!-- comment-updates -->
+                  <div class="updates ram d-flex d-md-none justify-content-between align-items-center">
+                    <div class="left d-flex align-items-center px-2 py-1">
+                      <div class="plus me-3">+</div>
+                      <div class="num ram-num me-3">4</div>
+                      <div class="minus">-</div>
+                    </div>
+                    <div class="right reply">
+                       <img class="pe-2" src="/interactive-comments-section-main/images/icon-reply.svg" alt="">
+                       <span>Reply</span>
+                    </div>
+                  </div>
+                  </div>
+                   
+                  
+                </div>
+              </article>
+              <!-- your-reply -->
+              <article class="mb-3 your-reply shadow-sm box  main-parent">
+                <div class="card-body bg-white d-flex">
+                  <!-- side-bar -->
+                  <div class="side-bar me-4 ms-2 d-none d-md-block">
+                    <div class="left d-flex flex-column justify-content-center align-items-center px-2 py-1">
+                      <div class="plus ">+</div>
+                      <div class="num px-2">2</div>
+                      <div class="minus">-</div>
+                    </div>
+                  </div>
+                  <!-- main-content -->
+                  <div class="main-content  justify-content-between">
+                    <div class="header d-flex align-items-center justify-content-between">
+                      <!-- user-info -->
+                      <div class="user-info d-flex align-items-center">
+                        <div class="dp  pe-0 me-3">
+                          <img class="img-fluid" src="/interactive-comments-section-main/images/avatars/image-juliusomo.png" alt="">
+                        </div>
+                        <div class="name  me-2">juliusomo</div>
+                        <div class="you me-3">you</div>
+                        <div class="time ">2 days ago</div>
+                      </div>
+                      <div class="activity d-none d-md-block">
+                        <div class="right d-flex">
+                          <div class="delete pe-3">
+                            <img class="pe-1  pb-1" src="/interactive-comments-section-main/images/icon-delete.svg" alt="">
+                            <span>Delete</span>
+                          </div>
+                          <div class="edit ps-sm-2">
+                            <img class="pe-1 pb-1" src="/interactive-comments-section-main/images/icon-edit.svg" alt="">
+                            <span>Edit</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                   <!-- user-comment -->
+                   <div class="user-comment your-comment  py-3">
+                   <span>@ramsesmiron</span> I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.
+                   </div>
+                   <!-- comment-updates -->
+                   <div class="updates d-flex d-md-none justify-content-between align-items-center">
+                    <div class="left d-flex align-items-center px-2 py-1">
+                      <div class="plus me-3">+</div>
+                      <div class="num me-3">2</div>
+                      <div class="minus">-</div>
+                    </div>
+                    <div class="right d-flex">
+                      <div class="delete pe-3">
+                        <img class="pe-1  pb-1" src="/interactive-comments-section-main/images/icon-delete.svg" alt="">
+                        <span>Delete</span>
+                      </div>
+                      <div class="edit ps-sm-2">
+                        <img class="pe-1 pb-1" src="/interactive-comments-section-main/images/icon-edit.svg" alt="">
+                        <span>Edit</span>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </article>
+              </div>
+            </div>
+          </div> 
+        </section>
+  
+          <div class="add-comment">
+            <article class=" shadow-sm box mb-3">
+              <div class="card-body w-100 d-md-flex justify-content-between  bg-white">
+                <div class="dp d-none d-md-inline-block me-md-3">
+                  <img class="img-fluid" src="/interactive-comments-section-main/images/avatars/image-juliusomo.png" alt="">
+                </div>
+                <div class="text-area me-md-3 flex-fill mb-2">
+                  <textarea class="w-100 p-3 text-field" name="" id="" cols="" rows="3" placeholder="Add a comment..." ></textarea>
+                </div>
+                <div class="send-btn d-none d-md-block ">
+                  <span class="p-1">SEND</span>
+                </div>
+                <div class="bottom  d-flex justify-content-between align-items-center d-md-none">
+                  <div class="dp d-inline-block ">
+                    <img class="img-fluid" src="/interactive-comments-section-main/images/avatars/image-juliusomo.png" alt="">
+                  </div>
+                  <div class="send-btn  d-inline-block">
+                    <span class="p-1">SEND</span>
+                  </div>
+  
+                </div>
+              </div>
+            </article>
+          </div>
+    
+    <!-- Pull dynamic content from the data.json file -->
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Pragati Rawat</a>.
+    </div>
+  </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <script src="/interactive-comments-section-main/script.js"></script>
+</body>
+</html>
+
+
+
+

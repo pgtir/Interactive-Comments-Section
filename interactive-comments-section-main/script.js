@@ -105,7 +105,7 @@ function add(event) {
           <!-- user-info -->
           <div class="user-info d-flex align-items-center">
             <div class="dp  pe-0 me-3">
-              <img class="img-fluid" src="/interactive-comments-section-main/images/avatars/image-juliusomo.png" alt="">
+              <img class="img-fluid" src="images/avatars/image-juliusomo.png" alt="">
             </div>
             <div class="name  me-2">juliusomo</div>
             <div class="you me-3">you</div>
@@ -114,11 +114,11 @@ function add(event) {
           <div class="activity d-none d-md-block">
             <div class="right d-flex">
               <div class="delete del-btn pe-3">
-                <img class="pe-1  pb-1" src="/interactive-comments-section-main/images/icon-delete.svg" alt="">
+                <img class="pe-1  pb-1" src="images/icon-delete.svg" alt="">
                 <span>Delete</span>
               </div>
               <div class="edit edit-btn ps-sm-2">
-                <img class="pe-1 pb-1" src="/interactive-comments-section-main/images/icon-edit.svg" alt="">
+                <img class="pe-1 pb-1" src="images/icon-edit.svg" alt="">
                 <span>Edit</span>
               </div>
             </div>
@@ -138,11 +138,11 @@ function add(event) {
         </div>
         <div class="right d-flex">
           <div class="delete pe-3">
-            <img class="pe-1  pb-1" src="/interactive-comments-section-main/images/icon-delete.svg" alt="">
+            <img class="pe-1  pb-1" src="images/icon-delete.svg" alt="">
             <span>Delete</span>
           </div>
           <div class="edit ps-sm-2">
-            <img class="pe-1 pb-1" src="/interactive-comments-section-main/images/icon-edit.svg" alt="">
+            <img class="pe-1 pb-1" src="images/icon-edit.svg" alt="">
             <span>Edit</span>
           </div>
         </div>
@@ -183,7 +183,7 @@ function add(event) {
              <!-- user-info -->
              <div class="user-info d-flex align-items-center">
                <div class="dp  pe-0 me-3">
-                 <img class="img-fluid" src="/interactive-comments-section-main/images/avatars/image-juliusomo.png" alt="">
+                 <img class="img-fluid" src="images/avatars/image-juliusomo.png" alt="">
                </div>
                <div class="name  me-2">juliusomo</div>
                <div class="you me-3">you</div>
@@ -235,7 +235,7 @@ function add(event) {
               <!-- user-info -->
               <div class="user-info d-flex align-items-center">
                 <div class="dp  pe-0 me-3">
-                  <img class="img-fluid" src="/interactive-comments-section-main/images/avatars/image-juliusomo.png" alt="">
+                  <img class="img-fluid" src="images/avatars/image-juliusomo.png" alt="">
                 </div>
                 <div class="name  me-2">juliusomo</div>
                 <div class="you me-3">you</div>
@@ -244,11 +244,11 @@ function add(event) {
               <div class="activity d-none d-md-block">
                 <div class="right d-flex">
                   <div class="delete pe-3">
-                    <img class="pe-1  pb-1" src="/interactive-comments-section-main/images/icon-delete.svg" alt="">
+                    <img class="pe-1  pb-1" src="images/icon-delete.svg" alt="">
                     <span>Delete</span>
                   </div>
                   <div class="edit ps-sm-2">
-                    <img class="pe-1 pb-1" src="/interactive-comments-section-main/images/icon-edit.svg" alt="">
+                    <img class="pe-1 pb-1" src="images/icon-edit.svg" alt="">
                     <span>Edit</span>
                   </div>
                 </div>
@@ -268,11 +268,11 @@ function add(event) {
             </div>
             <div class="right d-flex">
               <div class="delete pe-3">
-                <img class="pe-1  pb-1" src="/interactive-comments-section-main/images/icon-delete.svg" alt="">
+                <img class="pe-1  pb-1" src="images/icon-delete.svg" alt="">
                 <span>Delete</span>
               </div>
               <div class="edit ps-sm-2">
-                <img class="pe-1 pb-1" src="/interactive-comments-section-main/images/icon-edit.svg" alt="">
+                <img class="pe-1 pb-1" src="images/icon-edit.svg" alt="">
                 <span>Edit</span>
               </div>
             </div>
@@ -351,7 +351,7 @@ function editComment(event) {
         <!-- user-info -->
         <div class="user-info d-flex align-items-center">
           <div class="dp  pe-0 me-3">
-            <img class="img-fluid" src="/interactive-comments-section-main/images/avatars/image-juliusomo.png" alt="">
+            <img class="img-fluid" src="images/avatars/image-juliusomo.png" alt="">
           </div>
           <div class="name  me-2">juliusomo</div>
           <div class="you me-3">you</div>
@@ -406,7 +406,7 @@ function editComment(event) {
          <!-- user-info -->
          <div class="user-info d-flex align-items-center">
            <div class="dp  pe-0 me-3">
-             <img class="img-fluid" src="/interactive-comments-section-main/images/avatars/image-juliusomo.png" alt="">
+             <img class="img-fluid" src="images/avatars/image-juliusomo.png" alt="">
            </div>
            <div class="name  me-2">juliusomo</div>
            <div class="you me-3">you</div>
@@ -415,11 +415,11 @@ function editComment(event) {
          <div class="activity d-none d-md-block">
            <div class="right d-flex">
              <div class="delete pe-3">
-               <img class="pe-1  pb-1" src="/interactive-comments-section-main/images/icon-delete.svg" alt="">
+               <img class="pe-1  pb-1" src="images/icon-delete.svg" alt="">
                <span>Delete</span>
              </div>
              <div class="edit ps-sm-2">
-               <img class="pe-1 pb-1" src="/interactive-comments-section-main/images/icon-edit.svg" alt="">
+               <img class="pe-1 pb-1" src="images/icon-edit.svg" alt="">
                <span>Edit</span>
              </div>
            </div>
@@ -439,11 +439,11 @@ function editComment(event) {
        </div>
        <div class="right d-flex">
          <div class="delete pe-3">
-           <img class="pe-1  pb-1" src="/interactive-comments-section-main/images/icon-delete.svg" alt="">
+           <img class="pe-1  pb-1" src="images/icon-delete.svg" alt="">
            <span>Delete</span>
          </div>
          <div class="edit ps-sm-2">
-           <img class="pe-1 pb-1" src="/interactive-comments-section-main/images/icon-edit.svg" alt="">
+           <img class="pe-1 pb-1" src="images/icon-edit.svg" alt="">
            <span>Edit</span>
          </div>
        </div>
@@ -479,7 +479,7 @@ function replyComment(event) {
          <article class=" shadow-sm mb-3 box">
            <div class="card-body w-100 d-md-flex justify-content-between  bg-white">
              <div class="dp d-none d-md-inline-block me-md-3">
-               <img class="img-fluid" src="/interactive-comments-section-main/images/avatars/image-juliusomo.png" alt="">
+               <img class="img-fluid" src="images/avatars/image-juliusomo.png" alt="">
              </div>
              <div class="text-area me-md-3 flex-fill mb-2">
                <textarea class="w-100 p-3 text-field" name="" id="" cols="" rows="3" placeholder="Add your reply..." >@${replyToUser}</textarea>
@@ -489,7 +489,7 @@ function replyComment(event) {
              </div>
              <div class="bottom  d-flex justify-content-between align-items-center d-md-none">
                <div class="dp d-inline-block ">
-                 <img class="img-fluid" src="/interactive-comments-section-main/images/avatars/image-juliusomo.png" alt="">
+                 <img class="img-fluid" src="images/avatars/image-juliusomo.png" alt="">
                </div>
                <div class="reply-btn  d-inline-block">
                  <span class="p-1">REPLY</span>
@@ -538,7 +538,7 @@ function replyComment(event) {
           <!-- user-info -->
           <div class="user-info d-flex align-items-center">
             <div class="dp  pe-0 me-3">
-              <img class="img-fluid" src="/interactive-comments-section-main/images/avatars/image-juliusomo.png" alt="">
+              <img class="img-fluid" src="images/avatars/image-juliusomo.png" alt="">
             </div>
             <div class="name  me-2">juliusomo</div>
             <div class="you me-3">you</div>
@@ -547,11 +547,11 @@ function replyComment(event) {
           <div class="activity d-none d-md-block">
             <div class="right d-flex">
               <div class="delete pe-3">
-                <img class="pe-1  pb-1" src="/interactive-comments-section-main/images/icon-delete.svg" alt="">
+                <img class="pe-1  pb-1" src="images/icon-delete.svg" alt="">
                 <span>Delete</span>
               </div>
               <div class="edit ps-sm-2">
-                <img class="pe-1 pb-1" src="/interactive-comments-section-main/images/icon-edit.svg" alt="">
+                <img class="pe-1 pb-1" src="images/icon-edit.svg" alt="">
                 <span>Edit</span>
               </div>
             </div>
@@ -571,11 +571,11 @@ function replyComment(event) {
         </div>
         <div class="right d-flex">
           <div class="delete pe-3">
-            <img class="pe-1  pb-1" src="/interactive-comments-section-main/images/icon-delete.svg" alt="">
+            <img class="pe-1  pb-1" src="images/icon-delete.svg" alt="">
             <span>Delete</span>
           </div>
           <div class="edit ps-sm-2">
-            <img class="pe-1 pb-1" src="/interactive-comments-section-main/images/icon-edit.svg" alt="">
+            <img class="pe-1 pb-1" src="images/icon-edit.svg" alt="">
             <span>Edit</span>
           </div>
         </div>
@@ -601,7 +601,7 @@ function replyComment(event) {
         <!-- user-info -->
         <div class="user-info d-flex align-items-center">
           <div class="dp  pe-0 me-3">
-            <img class="img-fluid" src="/interactive-comments-section-main/images/avatars/image-juliusomo.png" alt="">
+            <img class="img-fluid" src="images/avatars/image-juliusomo.png" alt="">
           </div>
           <div class="name  me-2">juliusomo</div>
           <div class="you me-3">you</div>
@@ -610,11 +610,11 @@ function replyComment(event) {
         <div class="activity d-none d-md-block">
           <div class="right d-flex">
             <div class="delete pe-3">
-              <img class="pe-1  pb-1" src="/interactive-comments-section-main/images/icon-delete.svg" alt="">
+              <img class="pe-1  pb-1" src="images/icon-delete.svg" alt="">
               <span>Delete</span>
             </div>
             <div class="edit ps-sm-2">
-              <img class="pe-1 pb-1" src="/interactive-comments-section-main/images/icon-edit.svg" alt="">
+              <img class="pe-1 pb-1" src="images/icon-edit.svg" alt="">
               <span>Edit</span>
             </div>
           </div>
@@ -634,11 +634,11 @@ function replyComment(event) {
       </div>
       <div class="right d-flex">
         <div class="delete pe-3">
-          <img class="pe-1  pb-1" src="/interactive-comments-section-main/images/icon-delete.svg" alt="">
+          <img class="pe-1  pb-1" src="images/icon-delete.svg" alt="">
           <span>Delete</span>
         </div>
         <div class="edit ps-sm-2">
-          <img class="pe-1 pb-1" src="/interactive-comments-section-main/images/icon-edit.svg" alt="">
+          <img class="pe-1 pb-1" src="images/icon-edit.svg" alt="">
           <span>Edit</span>
         </div>
       </div>
@@ -684,7 +684,7 @@ function replyComment(event) {
              <!-- user-info -->
              <div class="user-info d-flex align-items-center">
                <div class="dp  pe-0 me-3">
-                 <img class="img-fluid" src="/interactive-comments-section-main/images/avatars/image-juliusomo.png" alt="">
+                 <img class="img-fluid" src="images/avatars/image-juliusomo.png" alt="">
                </div>
                <div class="name  me-2">juliusomo</div>
                <div class="you me-3">you</div>
@@ -739,7 +739,7 @@ function replyComment(event) {
               <!-- user-info -->
               <div class="user-info d-flex align-items-center">
                 <div class="dp  pe-0 me-3">
-                  <img class="img-fluid" src="/interactive-comments-section-main/images/avatars/image-juliusomo.png" alt="">
+                  <img class="img-fluid" src="images/avatars/image-juliusomo.png" alt="">
                 </div>
                 <div class="name  me-2">juliusomo</div>
                 <div class="you me-3">you</div>
@@ -748,11 +748,11 @@ function replyComment(event) {
               <div class="activity d-none d-md-block">
                 <div class="right d-flex">
                   <div class="delete pe-3">
-                    <img class="pe-1  pb-1" src="/interactive-comments-section-main/images/icon-delete.svg" alt="">
+                    <img class="pe-1  pb-1" src="images/icon-delete.svg" alt="">
                     <span>Delete</span>
                   </div>
                   <div class="edit ps-sm-2">
-                    <img class="pe-1 pb-1" src="/interactive-comments-section-main/images/icon-edit.svg" alt="">
+                    <img class="pe-1 pb-1" src="images/icon-edit.svg" alt="">
                     <span>Edit</span>
                   </div>
                 </div>
@@ -772,11 +772,11 @@ function replyComment(event) {
             </div>
             <div class="right d-flex">
               <div class="delete pe-3">
-                <img class="pe-1  pb-1" src="/interactive-comments-section-main/images/icon-delete.svg" alt="">
+                <img class="pe-1  pb-1" src="images/icon-delete.svg" alt="">
                 <span>Delete</span>
               </div>
               <div class="edit ps-sm-2">
-                <img class="pe-1 pb-1" src="/interactive-comments-section-main/images/icon-edit.svg" alt="">
+                <img class="pe-1 pb-1" src="images/icon-edit.svg" alt="">
                 <span>Edit</span>
               </div>
             </div>
